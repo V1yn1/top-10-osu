@@ -351,3 +351,8 @@ footer {
         font-size: 16px;
     }
 }
+
+.posicao .categoria {
+    color: #d7cfd9;
+    font-weight: normal;
+}

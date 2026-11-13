@@ -183,7 +183,7 @@ videos.forEach(function(video) {
     });
     video.addEventListener('error', function() {
         if (video !== videos[atual] || !introducao.hidden) return;
-        aviso.textContent = 'Não foi possível abrir este vídeo. Confira se a pasta videos foi extraída junto com a página.';
+        aviso.textContent = 'Não foi possível abrir o vídeo.';
         aviso.hidden = false;
     });
 });
